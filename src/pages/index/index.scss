@@ -14,3 +14,66 @@ page {
 .swiper-container {
   padding: 0 16px;
 }
+
+.swiper01 {
+  image {
+    height: 54px;
+  }
+
+  .demo-text-1 {
+    width: 280px;
+    margin: 0 12px;
+  }
+}
+
+// 热门话题
+.rmht {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rm {
+  display: flex;
+  align-items: center;
+  // justify-content: space-around;
+  gap: 12;
+
+  .rm-item {
+    // width: 120px;
+    // height: 160px;
+  }
+}
+
+// 权益
+
+.qy {
+  display: flex;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+
+    .btn {
+      background: linear-gradient(rgba(251, 230, 155, 1) 0%, rgba(255, 201, 12, 1) 100%);
+      border-radius: 20px;
+      color: white;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// 房价hagnqing
+.fjhq {
+  display: flex;
+
+  .left {
+  }
+
+  .right {
+  }
+}
